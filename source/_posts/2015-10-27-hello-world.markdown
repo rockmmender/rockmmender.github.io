@@ -8,11 +8,9 @@ categories:
 
 ### Test Basic Markdown
 
-The Definition of Machine Learning:
+The Definition of Machine Learning _by **Tom M. Mitchell**_:
 
 > A computer program is said to learn from experience `E` with respect to some task `T` and some performance measure `P`, if its performance on `T`, as measured by `P`, improves with experience `E`
-
-_by **Tom M. Mitchell**_
 
 Machine learning tasks are typically classified into three broad categories, depending on the nature of the learning "signal" or "feedback" available to a learning system. These are:
 
@@ -32,11 +30,15 @@ Machine learning tasks are typically classified into three broad categories, dep
 
 <br/>
 
-``` scala sample scala code
+``` scala sample scala code block
 val conf = new SparkConf().setAppName(appName).setMaster(master)
 val sc = new SparkContext(conf)
 ```
 
+> 遥映人间冰雪样，<br/>
+> 暗香幽浮曲临江，<br/>
+> 遍识天下英雄路，<br/>
+> 俯首江左有梅郎。
 
 ![Image of Github](http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png){:height="368px" width="306px"}
 
