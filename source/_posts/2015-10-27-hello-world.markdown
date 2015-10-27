@@ -8,7 +8,7 @@ categories:
 
 ### Test Basic Markdown
 
-The Definition of Machine Learning _by **Tom M. Mitchell**_:
+The definition of Machine Learning _by **Tom M. Mitchell**_:
 
 > A computer program is said to learn from experience `E` with respect to some task `T` and some performance measure `P`, if its performance on `T`, as measured by `P`, improves with experience `E`
 
