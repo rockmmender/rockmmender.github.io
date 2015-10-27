@@ -4,7 +4,7 @@
   <title><![CDATA[Rockmmender]]></title>
   <link href="http://rockmmender.github.io/atom.xml" rel="self"/>
   <link href="http://rockmmender.github.io/"/>
-  <updated>2015-10-27T20:10:33+08:00</updated>
+  <updated>2015-10-27T20:13:32+08:00</updated>
   <id>http://rockmmender.github.io/</id>
   <author>
     <name><![CDATA[Andrew Wang]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
+    <title type="html"><![CDATA[Hello World!]]></title>
     <link href="http://rockmmender.github.io/blog/2015/10/27/hello-world/"/>
     <updated>2015-10-27T16:55:41+08:00</updated>
     <id>http://rockmmender.github.io/blog/2015/10/27/hello-world</id>
