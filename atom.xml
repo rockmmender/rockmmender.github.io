@@ -4,7 +4,7 @@
   <title><![CDATA[Rockmmender]]></title>
   <link href="http://rockmmender.github.io/atom.xml" rel="self"/>
   <link href="http://rockmmender.github.io/"/>
-  <updated>2015-10-28T00:38:46+08:00</updated>
+  <updated>2015-10-28T00:42:00+08:00</updated>
   <id>http://rockmmender.github.io/</id>
   <author>
     <name><![CDATA[Andrew Wang]]></name>
@@ -20,7 +20,7 @@
     <id>http://rockmmender.github.io/blog/2015/10/27/hello-world</id>
     <content type="html"><![CDATA[<h3 id="test-basic-markdown">Test Basic Markdown</h3>
 
-<p>The Definition of Machine Learning <em>by <strong>Tom M. Mitchell</strong></em>:</p>
+<p>The definition of Machine Learning <em>by <strong>Tom M. Mitchell</strong></em>:</p>
 
 <blockquote>
   <p>A computer program is said to learn from experience <code>E</code> with respect to some task <code>T</code> and some performance measure <code>P</code>, if its performance on <code>T</code>, as measured by <code>P</code>, improves with experience <code>E</code></p>
