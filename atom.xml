@@ -4,7 +4,7 @@
   <title><![CDATA[Rockmmender]]></title>
   <link href="http://rockmmender.github.io/atom.xml" rel="self"/>
   <link href="http://rockmmender.github.io/"/>
-  <updated>2015-07-30T16:44:26+08:00</updated>
+  <updated>2015-10-27T19:52:51+08:00</updated>
   <id>http://rockmmender.github.io/</id>
   <author>
     <name><![CDATA[Andrew Wang]]></name>
@@ -14,11 +14,82 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Yet Another Try With Octopress]]></title>
-    <link href="http://rockmmender.github.io/blog/2015/07/30/yet-another-try-with-octopress/"/>
-    <updated>2015-07-30T16:12:39+08:00</updated>
-    <id>http://rockmmender.github.io/blog/2015/07/30/yet-another-try-with-octopress</id>
-    <content type="html"><![CDATA[<p>Hope this time I can stick with it.</p>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://rockmmender.github.io/blog/2015/10/27/hello-world/"/>
+    <updated>2015-10-27T16:55:41+08:00</updated>
+    <id>http://rockmmender.github.io/blog/2015/10/27/hello-world</id>
+    <content type="html"><![CDATA[<h3 id="test-basic-markdown">Test Basic Markdown</h3>
+
+<p>The Definition of Machine Learning:</p>
+
+<blockquote>
+  <p>A computer program is said to learn from experience <code>E</code> with respect to some task <code>T</code> and some performance measure <code>P</code>, if its performance on <code>T</code>, as measured by <code>P</code>, improves with experience <code>E</code></p>
+</blockquote>
+
+<p><em>by <strong>Tom M. Mitchell</strong></em></p>
+
+<p>Machine learning tasks are typically classified into three broad categories, depending on the nature of the learning “signal” or “feedback” available to a learning system. These are:</p>
+
+<ol>
+  <li>Supervised learning
+    <ul>
+      <li>Classification</li>
+      <li>Regression</li>
+    </ul>
+  </li>
+  <li>Unsupervised learning
+    <ul>
+      <li>Clustering</li>
+      <li>Density estimation</li>
+      <li>Dimensionality reduction</li>
+    </ul>
+  </li>
+  <li>Reinforcement learning</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Positive</th>
+      <th>Negative</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>True</strong></td>
+      <td>True Positive</td>
+      <td>True Negative</td>
+    </tr>
+    <tr>
+      <td><strong>False</strong></td>
+      <td>False Positive</td>
+      <td>False Negative</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>sample scala code</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="scala"><span class="line"><span class="k">val</span> <span class="n">conf</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">SparkConf</span><span class="o">().</span><span class="n">setAppName</span><span class="o">(</span><span class="n">appName</span><span class="o">).</span><span class="n">setMaster</span><span class="o">(</span><span class="n">master</span><span class="o">)</span>
+</span><span class="line"><span class="k">val</span> <span class="n">sc</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">SparkContext</span><span class="o">(</span><span class="n">conf</span><span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" alt="Image of Github" height="368px" width="306px" /></p>
+
+<p><a href="https://www.github.com">Visit Github!</a></p>
+
+<h3 id="test-latex">Test LaTex</h3>
+
+<script type="math/tex; mode=display">c = 2\pi r</script>
+
+<script type="math/tex; mode=display">a^2 + b^2 = c^2</script>
+
+<script type="math/tex; mode=display">\hat{f}(\xi) = \int_{-\infty}^{\infty}f(x)e^{-2\pi ix\xi}dx</script>
+
+<script type="math/tex; mode=display">E=MC^2</script>
 ]]></content>
   </entry>
   
