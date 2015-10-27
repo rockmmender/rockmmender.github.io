@@ -74,12 +74,30 @@ html {
   background: $page-bg image-url('line-tile.png') top left;
 }
 body {
-  > div {
+  > div#main {
     background: $sidebar-bg $noise-bg;
     border-bottom: 1px solid $page-border-bottom;
     > div {
       background: $main-bg $noise-bg;
       border-right: 1px solid $sidebar-border;
+    }
+    * + table {
+      width: 100%;
+      overflow: auto;
+      display: block;
+      border-spacing: 0;
+      border-collapse: collapse;
+      th {
+        font-weight: bold;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 6px 13px;
+      }
+      tr {
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+      }
     }
   }
 }
