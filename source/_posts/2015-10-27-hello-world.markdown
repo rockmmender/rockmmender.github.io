@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World"
+title: "Hello World!"
 date: 2015-10-27 16:55:41 +0800
 comments: true
 categories: 
