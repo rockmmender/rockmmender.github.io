@@ -33,12 +33,20 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: kramdown
-kramdown:
+markdown: redcarpet
+redcarpet:
   extensions:
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
     - autolink
-    - footnotes
-    - smart
+    - strikethrough
+    - highlight
+    - with_toc_data
+    - hard_wrap
+    - no_styles
+    - safe_links_only
+
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index

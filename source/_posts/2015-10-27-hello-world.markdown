@@ -5,7 +5,6 @@ date: 2015-10-27 16:55:41 +0800
 comments: true
 categories: 
 ---
-
 ### Test Basic Markdown
 
 The definition of Machine Learning _by **Tom M. Mitchell**_:
@@ -23,29 +22,37 @@ Machine learning tasks are typically classified into three broad categories, dep
   - Dimensionality reduction
 3. Reinforcement learning
 
-|            |Positive | Negative
------------- | -------------
-**True**     | True Positive | True Negative
-**False**    | False Positive| False Negative
 
-<br/>
+            |Positive       | Negative
+----------- | ------------- | ------------
+**True**    | True Positive | True Negative
+**False**   | False Positive| False Negative
 
-``` scala sample scala code block
+> 遥映人间冰雪样，
+> 暗香幽浮曲临江，
+> 遍识天下英雄路，
+> 俯首江左有梅郎。
+
+
+``` scala Sample Scala Code
 val conf = new SparkConf().setAppName(appName).setMaster(master)
 val sc = new SparkContext(conf)
 ```
 
-> 遥映人间冰雪样，<br/>
-> 暗香幽浮曲临江，<br/>
-> 遍识天下英雄路，<br/>
-> 俯首江左有梅郎。
+~~this~~
 
-![Image of Github](http://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png){:height="368px" width="306px"}
+@ac0x
 
+http://www.mi.com
+
+[<img src="https://github.com/favicon.ico" width="48">](https://www.github.com)
 [Visit Github!](https://www.github.com)
 
+<hr/>
 
 ### Test LaTex
+
+傅立叶变换: $\hat{f}(\xi) = \int_{-\infty}^{\infty}f(x)e^{-2\pi ix\xi}dx$
 
 $$c = 2\pi r$$
 
